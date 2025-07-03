@@ -8,8 +8,8 @@ body {
 
 header {
   display: flex;
-  align-items: center;
-  justify-content: center; /* sau space-between, dacă vrei mai mult spațiu */
+  align-items: left;
+  justify-content: left; /* sau space-between, dacă vrei mai mult spațiu */
   flex-wrap: wrap; /* pentru responsivitate */
   gap: 1rem; /* spațiu între logo și text */
   background-color: #0066cc;

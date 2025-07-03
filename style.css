@@ -7,10 +7,25 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* sau space-between, dacă vrei mai mult spațiu */
+  flex-wrap: wrap; /* pentru responsivitate */
+  gap: 1rem; /* spațiu între logo și text */
   background-color: #0066cc;
   color: white;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   text-align: center;
+}
+
+.logo-img {
+  height: 60px; /* înălțimea logo-ului, ajustează după nevoie */
+  width: auto;
+}
+
+.logo-text {
+  font-size: 2.5rem;
+  margin: 0;
 }
 
 .logo {
